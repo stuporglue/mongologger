@@ -18,4 +18,4 @@ $mongo = $mongodb->db;                           // pick your database
 $mongo = new MongoLogger($mongo);                // Replace the $mongo
 ```
 
-**Note:** Magic Methods, an call_user_func_array in particular, are slow. Not recommended for production use!
+**Note:** Magic Methods, and call_user_func_array in particular, are slow. Not recommended for production use!
